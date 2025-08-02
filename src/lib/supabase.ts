@@ -14,3 +14,17 @@ export type Event = {
   tier: "free" | "silver" | "gold" | "platinum";
   created_at: string;
 };
+
+export async function getPublicEvents() {
+  const { data: events, error } = await supabase
+    .from("events")
+    .select("*")
+    .order("event_date", { ascending: true });
+
+  if (error) {
+    console.error("Error fetching events:", error);
+    return [];
+  }
+
+  return events as Event[];
+}
