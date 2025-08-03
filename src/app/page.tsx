@@ -25,7 +25,7 @@ export default async function Home() {
         </p>
         <SignInButton mode="modal">
           <button className="bg-[#6c47ff] hover:bg-[#5a3cd7] text-white rounded-full px-8 py-3 font-medium transition-colors">
-            Sign in to access your events
+            Go to Dashboard
           </button>
         </SignInButton>
       </section>
