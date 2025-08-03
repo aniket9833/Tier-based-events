@@ -14,7 +14,7 @@ export default async function Home() {
   const events = await getPublicEvents();
 
   return (
-    <div className="min-h-screen max-w-7xl mx-auto p-6">
+    <div className="min-h-screen max-w-7xl mx-auto p-6 pt-26">
       {/* Hero Section */}
       <section className="text-center mb-16">
         <h1 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-purple-600 to-blue-500 text-transparent bg-clip-text">

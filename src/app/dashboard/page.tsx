@@ -25,7 +25,7 @@ export default async function DashboardPage() {
   );
 
   return (
-    <div className="min-h-screen max-w-7xl mx-auto p-6">
+    <div className="min-h-screen max-w-7xl mx-auto p-6 mt-22">
       <div className="mb-8">
         <h1 className="text-3xl font-bold mb-2">Your Events</h1>
         <p className="text-gray-600 dark:text-gray-400">
