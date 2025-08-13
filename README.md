@@ -1,5 +1,23 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## Live Link: [https://tier-based-events-od8iagnf5-aniket-ingoles-projects.vercel.app/](https://tier-based-events-od8iagnf5-aniket-ingoles-projects.vercel.app/)
+
+## Project Description: 
+This project is a tier-based event showcase web application built with Next.js (App Router), Clerk for authentication, Supabase (PostgreSQL) as the database, and Tailwind CSS for a clean and responsive UI.
+
+The application allows users to:
+
+Browse events organized by tier levels (e.g., Basic, Premium, VIP).
+
+Sign up and log in securely using Clerk authentication.
+
+View event details dynamically from the database.
+
+Enjoy a modern, mobile-responsive interface with smooth UI components.
+
+The backend is designed for scalability using Supabase, ensuring structured storage of events and user data. The frontend is optimized for performance using server components, dynamic routing, and efficient rendering with Next.js.
+
+This project demonstrates an end-to-end implementation of a full-stack web app — integrating authentication, database operations, and a polished frontend experience. It is an ideal base for expanding into a complete event management platform with features like admin dashboards, search and filtering, or payment integrations.
 ## Getting Started
 
 First, run the development server:
